@@ -2,7 +2,7 @@ public class MediaLib {
 
     public static void main(String [] args){
 
-        System.out.println("Welcome to my Media Library");
+        System.out.println("Welcome to my Media Library\n");
 
         Song song1 = new Song();
         song1.setTitle("Johnny B. Goode");
