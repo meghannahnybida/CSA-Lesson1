@@ -15,3 +15,18 @@ reduce the duplication the Books, Movies, and Song classes could have been put i
 <p>#12 The naming convention is called camel casing. totalCost should be a data type of double because prices
 have decimals.</p>
 <p>#13 numSongs should be an int because you can't have half a song. </p>
+<p>Conclusion 1: You may need more than one constructor for a class if you need different amounts of parameters
+ in each constructor.
+  For example:
+  public Song(String title, double price) {
+         this.title = title;
+         this.price = price;
+     }
+     public Song(String title, double price, int rating) {
+         this.title = title;
+         this.price = price;
+         this.rating = rating;
+     }
+I needed two different constructors in the Song class because I needed two parameters for one constructor and three
+parameters
+for the other.</p>
