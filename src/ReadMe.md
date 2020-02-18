@@ -10,7 +10,7 @@ be spread throughout multiple classes. Also, you can easily change the data type
 and getters and setters. All of the classes have the same methods: getTitle, setTitle, getRating, and setRating. To
 reduce the duplication the Books, Movies, and Song classes could have been put in one single class.</p>
 
-<h1> 1.1.3 </h1>
+<h1> Lesson 1.1.3 </h1>
 <p>#8  You could do song.setFavorite(true). My preferred version of mutator for favorite is new Song  </p>
 <p>#12 The naming convention is called camel casing. totalCost should be a data type of double because prices
 have decimals.</p>
@@ -20,7 +20,7 @@ For example there are two parameters in public Song(String title, double price) 
 I needed two different constructors in the Song class because I needed two parameters for one constructor and three
 parameters
 for the other.</p>
-<h1> 1.1.4 </h1>
+<h1> Lesson 1.1.4 </h1>
 <p>#1a. Strings are literally objects of the String class, that happen to hold sequences of characters. Also, all class name begin with a capital letter, like in String, and primitive types start with lowercase letter (int). </p>
 <p>#1b. A reference with no value  </p>
 <p>#1c. String test; test = "This is a test message."; or String test = "This is a test message.";</p>
