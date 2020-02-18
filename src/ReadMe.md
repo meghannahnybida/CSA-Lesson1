@@ -28,4 +28,14 @@ for the other.</p>
 <p>#1e. The superclass of the String class is the Object class. </p>
 <p>#1f. You can call .getClass() for class and .getSuperclass() for superclass. </p>
 <p>#10 result1 uses == and result2 uses .equals(). "==" compares the reference identity. .equals() method compares only contents.</p>
+<p>#25a. Freezing would cause a short circuit evaluation (freezing && cloudy). </p>
+<p>#25b. Sunny would cause a short circuit evaluation (sunny || fair). </p>
+<p>#25c. !Sunny would cause a short circuit evaluation (!sunny && !fair). </p>
+<p>#27a. if(!(sunny || clear)) </p>
+<p>#27b. if(raining && snowing) </p>
+<p>#28a. if(temperature <= 75) </p>
+<p>#28b. if(temperature > 100) </p>
+<p>#28c. if(temperature != 32) </p>
+<p>Conclusion #1: first way --> if(str != "" && (str.length() <= 80)) second way -->()</p>
+<p>Conclusion #2:  </p>
 
