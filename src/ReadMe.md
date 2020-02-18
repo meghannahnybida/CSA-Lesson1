@@ -1,4 +1,4 @@
-<h> Lesson 1.1.2 </h>
+<h1> Lesson 1.1.2 </h1>
 <p> #5 My MediaLib class and the SecondClass class both have (at least) one constructor.
 They also both have a main method, and a System.out.println statement.</p>
 <p>#7 The four variable types are int, double, String, and char. </p>
