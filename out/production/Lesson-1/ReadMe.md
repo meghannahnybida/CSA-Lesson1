@@ -36,4 +36,9 @@ for the other.</p>
 <p>#28a. if(temperature <= 75) </p>
 <p>#28b. if(temperature > 100) </p>
 <p>#28c. if(temperature != 32) </p>
+<p>Conclusion #1: first way --> if(str != "" && (str.length() <= 80)) second way -->()</p>
+<p>Conclusion #2:  </p>
+<h1> Lesson 1.1.5 </h1>
+<p>#1 </p>
+<p>#2 Algorithm 2 generates a better random dice roll because there are two random number generators. </p>
 

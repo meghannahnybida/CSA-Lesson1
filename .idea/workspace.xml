@@ -18,8 +18,8 @@
       <file leaf-file-name="StringTester.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/weather/StringTester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="187">
+              <caret line="11" column="67" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -27,17 +27,44 @@
       <file leaf-file-name="WeatherConditionals.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/weather/WeatherConditionals.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
+            <state relative-caret-position="883">
               <caret line="56" column="36" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReadMe.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SciFiName.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SciFi/SciFiName.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="447">
+              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PetGenerator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SciFi/PetGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserInput.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SciFi/UserInput.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadMe.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ReadMe.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+            <state relative-caret-position="487">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
             </state>
           </provider>
         </entry>
@@ -61,8 +88,11 @@
         <option value="$PROJECT_DIR$/src/Movies.java" />
         <option value="$PROJECT_DIR$/src/Song.java" />
         <option value="$PROJECT_DIR$/src/MediaLib.java" />
-        <option value="$PROJECT_DIR$/src/weather/StringTester.java" />
         <option value="$PROJECT_DIR$/src/weather/WeatherConditionals.java" />
+        <option value="$PROJECT_DIR$/src/SciFi/UserInput.java" />
+        <option value="$PROJECT_DIR$/src/weather/StringTester.java" />
+        <option value="$PROJECT_DIR$/src/SciFi/PetGenerator.java" />
+        <option value="$PROJECT_DIR$/src/SciFi/SciFiName.java" />
         <option value="$PROJECT_DIR$/src/ReadMe.md" />
       </list>
     </option>
@@ -79,6 +109,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -95,14 +127,12 @@
               <item name="Lesson-1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Lesson-1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="weather" type="462c0819:PsiDirectoryNode" />
+              <item name="SciFi" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -121,11 +151,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringTester">
+  <component name="RunManager" selected="Application.SciFiName">
     <configuration name="MediaLib" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MediaLib" />
       <module name="Lesson-1" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="PetGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SciFi.PetGenerator" />
+      <module name="Lesson-1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SciFi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SciFiName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SciFi.SciFiName" />
+      <module name="Lesson-1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SciFi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration name="StringTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="weather.StringTester" />
@@ -182,9 +234,13 @@
     <list>
       <item itemvalue="Application.MediaLib" />
       <item itemvalue="Application.StringTester" />
+      <item itemvalue="Application.PetGenerator" />
+      <item itemvalue="Application.SciFiName" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SciFiName" />
+        <item itemvalue="Application.PetGenerator" />
         <item itemvalue="Application.StringTester" />
         <item itemvalue="Application.MediaLib" />
       </list>
@@ -216,8 +272,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31011826" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3298611" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21550591" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -229,6 +284,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.3298611" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -239,14 +295,14 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3298292" />
       <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3298292" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -256,7 +312,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -268,6 +324,27 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/weather/StringTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ReadMe.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="62" selection-start-line="38" selection-start-column="62" selection-end-line="38" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/weather/WeatherConditionals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="56" column="36" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/weather/StringTester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -454,24 +531,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WeatherConditionals.java" />
     <entry file="file://$PROJECT_DIR$/src/StringTester.java" />
+    <entry file="file://$PROJECT_DIR$/src/SciFiName/ScifiName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/weather/StringTester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="187">
+          <caret line="11" column="67" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/weather/WeatherConditionals.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
+        <state relative-caret-position="883">
           <caret line="56" column="36" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ReadMe.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+        <state relative-caret-position="487">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SciFi/UserInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SciFi/PetGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SciFi/SciFiName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>
