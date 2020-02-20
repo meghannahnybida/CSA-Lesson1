@@ -37,9 +37,13 @@ for the other.</p>
 <p>#28b. if(temperature > 100) </p>
 <p>#28c. if(temperature != 32) </p>
 <p>Conclusion #1: first way --> if(str != "" && (str.length() <= 80)) second way -->()</p>
-<p>Conclusion #2:  </p>
-<h1> Lesson 1.1.5 </h1>
-<p>#1 </p>
-<p>#2 Algorithm 2 generates a better random dice roll because there are two random number generators. </p>
-<p>Conclusion #1: </p>
-<p>Conclusion #2: </p>
+<p>Conclusion #2: else if(!(cold && windy))
+                      {
+                        return "Enjoy the hike!";
+                      } </p>
+<h1> 1.1.5 </h1>
+<p> #1: I would write Math.sqrt(25) </p>
+<p>  #2: Algorithm 2 generates a better random dice roll because there are two random number generators, it rolls one dice with six sides twice. On the other hand, Algorithm 1 rolls only one dice with eleven sides between 2 and 12 . </p>
+<p> Conclusion #1: The algorithm specified this length because it needs the random number generator to choose a value that is in the String's length. That pattern for that specific random number generator chooses a random number to begin the string at, and then prints the rest of the string.</p>
+<p> Conclusion #2: r1 always returns 1 because the Math.random() always generates 0, and (0 * 10) + 1 = 1.
+                   On the other hand, r2 actually returns a random number 1 - 10. The r2 random number generator correctly multiplies Math.random() * 10.  </p>
