@@ -47,3 +47,10 @@ for the other.</p>
 <p> Conclusion #1: The algorithm specified this length because it needs the random number generator to choose a value that is in the String's length. That pattern for that specific random number generator chooses a random number to begin the string at, and then prints the rest of the string.</p>
 <p> Conclusion #2: r1 always returns 1 because the Math.random() always generates 0, and (0 * 10) + 1 = 1.
                    On the other hand, r2 actually returns a random number 1 - 10. The r2 random number generator correctly multiplies Math.random() * 10.  </p>
+<h1> 1.1.6 </h1>
+<p>#1: The chatbots seems to pick up on keywords that the user enters. Some keywords are my family, school, and sports.
+For example, I entered "My brother is one grade above me." The chatbot responded with, "So you are not an only child.
+ Please tell me more about your family."</p>
+ <p>#2: The chatbot responds to "My mother and I talked last night" & "Do you know my brother?" with "Tell me more about your family."
+ Next, it responds to "I said no!" with "Why so negative?". Finally, it responds to "The weather is nice." with a random response.</p>
+ <p> </p>
