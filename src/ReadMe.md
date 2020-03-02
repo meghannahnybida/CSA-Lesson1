@@ -51,6 +51,11 @@ for the other.</p>
 <p>#1: The chatbots seems to pick up on keywords that the user enters. Some keywords are my family, school, and sports.
 For example, I entered "My brother is one grade above me." The chatbot responded with, "So you are not an only child.
  Please tell me more about your family."</p>
- <p>#2: The chatbot responds to "My mother and I talked last night" & "Do you know my brother?" with "Tell me more about your family."
- Next, it responds to "I said no!" with "Why so negative?". Finally, it responds to "The weather is nice." with a random response.</p>
- <p> </p>
+ <p>#2: b.The chatbot responds to "My mother and I talked last night" & "Do you know my brother?" with "Tell me more about your family."
+ Next, it responds to "I said no!" with "Why so negative?". Finally, it responds to "The weather is nice." with a random response.
+ e.When a sentence has  more than one keyword, it will respond to the first keyboard that corresponds in the program written.
+ In the case of “My mother has a daughter but no cat periods”. It answers to the "no" keyword because that is the first else if statement
+ in my program. f. When keywords are included in the two strings “I know all the state capitals” and “I like vegetables smothered
+ in cheese”. The program isn't able to know that the keyword is contained within a word, and gives a response that doesn't fit the
+ entered statement.</p>
+ <p> #3: <img src = "picnumc.jpg"></p>

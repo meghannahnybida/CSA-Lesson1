@@ -16,6 +16,13 @@ public class MagpieRunner3
     public static void main(String[] args)
     {
         Magpie3 maggie = new Magpie3();
+        maggie.findKeyword("She's my sister", "sister", 0);
+
+        maggie.findKeyword("Brother Tom is helpful", "brother", 0);
+
+        maggie.findKeyword("I can't catch wild cats.", "cat", 0);
+
+        maggie.findKeyword("I know nothing about snow plows.", "no", 0);
 
         System.out.println (maggie.getGreeting());
         Scanner in = new Scanner (System.in);
