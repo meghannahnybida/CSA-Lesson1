@@ -33,10 +33,10 @@
  <p>#2e. When a sentence has  more than one keyword, it will respond to the first keyboard that corresponds in the actual code. In the case of “My mother has a daughter but no cat periods”. It answers to the "no" keyword because that is the first else if statement in my program.</p>
  <p>#2f. When keywords are included in the two strings “I know all the state capitals” and “I like vegetables smothered in cheese”. The program isn't able to know that the keyword is contained within a word, and gives a response that doesn't fit the
  entered statement. </p>
- <p>#3d. Iteration: sister (1) <img src = "sister.PNG"> </p>
- <p>#3e. Iteration: brother (1) <img src = "brother.PNG"> </p>
- <p>#3f. Iteration: catch (1), cats (2) <img src = "cats.PNG"> </p>
- <p>#3g. Iteration: know (1), nothing (2), snow (3) <img src = "no.PNG"> </p>
+ <p>#3d. Iteration: sister (1), psn: 9, before: " ", after: ""  </p>
+ <p>#3e. Iteration: brother (1), psn: 0, before: " ", after: " " (1)  </p>
+ <p>#3f. Iteration: catch (1), psn: 8, before: " ", after: "c" Iteration: cats(2), psn: 18, before: " ", after: "s" </p>
+ <p>#3g. Iteration: know (1), psn: 2, before: "k", after: "w" Iteration: nothing (2), psn: 7, before: "", after: "t" Iteration: snow (3), psn: 21, before: "s", after: "w"  </p>
 <p>#4d. I improved the algorithim by adding two more methods that give a response to the inputs "I want ... " and "I ... you ". I also added to the getResponse method to search for certain keywords. Now the chatbot can respond to more statements. </p>
 <p>#13a.A chatbat can definitly be a cyberbully if it is harassing and sending hurtful messages to people.</p>
 <p>#13b.If an AI entity offends someone I don't think it is the AI or programmers fault. The AI uses words other people have written to respond to messages. The AI learns from what others say.</p>
