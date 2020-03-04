@@ -35,7 +35,7 @@
  entered statement. </p>
  <p>#3d. Iteration: sister (1) <img src = "sister.PNG"> </p>
  <p>#3e. Iteration: brother (1) <img src = "brother.PNG"> </p>
- <p>#3f. Iteration: catch (1), cats (2) <img src = "cat.PNG"> </p>
+ <p>#3f. Iteration: catch (1), cats (2) <img src = "cats.PNG"> </p>
  <p>#3g. Iteration: know (1), nothing (2), snow (3) <img src = "no.PNG"> </p>
 <p>#4d. I improved the algorithim by adding two more methods that give a response to the inputs "I want ... " and "I ... you ". I also added to the getResponse method to search for certain keywords. Now the chatbot can respond to more statements. </p>
 <p>#13a.A chatbat can definitly be a cyberbully if it is harassing and sending hurtful messages to people.</p>
